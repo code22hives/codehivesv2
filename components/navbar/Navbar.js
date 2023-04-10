@@ -83,20 +83,14 @@ function Navbar() {
         <Link href="/faqs">
           <a className={styles.navLink}>FAQs</a>
         </Link>
-        <Link href="/contact">
-          <a className={styles.navLink}>CONTACT US</a>
-        </Link>
-        <a
-          href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
-          target="_blank"
-          className="flex rounded-full"
-          rel="noreferrer"
-        >
+        
+        <a className={styles.navLink} href='https://forms.gle/vUGKGVVHS89NaKCx9'>
+        
           <Button
             style={{ border: 'none' }}
             className="bg-primary-light text-primary hover:text-primary-light"
           >
-            <span style={SpanStyle}>Join Us</span>
+            <span style={SpanStyle}>CONTACT US</span>
           </Button>
         </a>
       </div>

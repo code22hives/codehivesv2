@@ -85,11 +85,6 @@ function Sidebar({ isMounted, unmount }) {
             Team
           </a>
         </Link>
-        <Link href="/contact">
-          <a className={styles.navLink} onClick={unmount}>
-            Contact Us
-          </a>
-        </Link>
         <Link href="/events">
           <a className={styles.navLink} onClick={unmount}>
             Events
@@ -100,20 +95,16 @@ function Sidebar({ isMounted, unmount }) {
             FAQs
           </a>
         </Link>
-        <a
-          href="https://docs.google.com/forms/d/1eOZsO1X6qmqyS48nEw43RJnOhwEBuAvXpXZXMtOOLaY/viewform?edit_requested=true"
-          target="_blank"
-          className="flex rounded-full"
-          rel="noreferrer"
-        >
+      
+        <a className={styles.navLink} href='https://forms.gle/vUGKGVVHS89NaKCx9'>
+        
           <Button
             style={{ border: 'none' }}
-            className="bg-primary-light text-primary hover:text-primary-light xs:!py-3"
+            className="bg-primary-light text-primary hover:text-primary-light"
           >
-            <span style={SpanStyle}>Join Us</span>
+            <span style={SpanStyle}>CONTACT US</span>
           </Button>
-        </a>
-      </div>
+        </a>      </div>
     </section>,
     document.getElementById('overlay')
   );

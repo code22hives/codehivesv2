@@ -21,8 +21,8 @@ export default function Home() {
           name="keywords"
           content="Code Hives, ReactJS, NextJS, GEC Patan, Patan ,Code Hives,Programming tutorials, Web development,Software development,Coding resources,Programming languages,JavaScript,Python,HTML-CSS,Java,C++,Front-end development,Back-end development,Frameworks,Coding community,Coding tips,Code snippets,Debugging techniques."
         />
-        <meta name="robots" content="index, follow"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property= "og:title" content="CodeHives GECP" />
 
       </Head>

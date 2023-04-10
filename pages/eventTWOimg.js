@@ -9,7 +9,7 @@ function eventTWOimg() {
   return (
     <Screen>
       <Head>
-        <title>About Us</title>
+        <title>Event 2 images</title>
         <meta
           name="description"
           content="Code HIves or GDSC and Coding Club is the official club of GEC PATAN that has the motto to instill a coding culture, collaborate, and arrange events relevant to Open Source, Graphics and Game Development, Web Development, App Development, and many other topics."
@@ -25,7 +25,7 @@ function eventTWOimg() {
       </Head>
       
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
-      <BottomGlitter text="Our Events" />
+      <BottomGlitter text="Event 2 images" />
       <div className={Styles.cardContainer}>
         {EventTWOimg.map((item, index) => {
           return (

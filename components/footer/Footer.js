@@ -32,14 +32,7 @@ function Footer() {
           <Link href="/events">
             <a className="pl-1 block text-lg my-1 font-extralight">Events</a>
           </Link>
-          <a
-            href="https://ssgecpatan.blogspot.com"
-            className="pl-1 block text-lg my-1 font-extralight"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Blog
-          </a>
+          
           <a
             href="https://gecpatan.ac.in"
             className="block pl-1 text-lg my-1 font-extralight"
@@ -52,19 +45,19 @@ function Footer() {
         <div className="flex-4 md:flex-1 sm:mt-8">
           <h3 className="text-2xl">Get Help</h3>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe2sjlkt2S0RePZoGqpGYJ9ry69dwPnZaVcePxKQ0vvanevKA/viewform?embedded=true"
+            href="https://forms.gle/vUGKGVVHS89NaKCx9"
             className="block pl-1 text-lg my-1 font-extralight"
             target="_blank"
             rel="noreferrer"
           >
-            Join Us
+            CONTACT US
           </a>
           <Link href="/faqs">
             <a className="block pl-1 text-lg my-1 font-extralight">FAQs</a>
           </Link>
           <Link href="/teams">
             <a className="pl-1 block text-lg my-1 font-extralight">
-              Contact Us
+              Team
             </a>
           </Link>
         </div>

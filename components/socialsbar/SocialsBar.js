@@ -1,17 +1,17 @@
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import {  FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Styles from './SocialsBar.module.css';
 
 const ICON_SIZE = 36;
 function SocialsBar() {
   return (
     <section className={Styles.socialsBar}>
-//       <a
+    {/* <a
 //         href="https://www.facebook.com/hnccbits/"
 //         target="_blank"
 //         rel="noreferrer"
 //       >
 //         <FaFacebook className={Styles.socialsBarIcons} size={ICON_SIZE} />
-//       </a>
+//       </a> */}
       <a
         href="https://www.instagram.com/code.hives/"
         target="_blank"
