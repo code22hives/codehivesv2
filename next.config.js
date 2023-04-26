@@ -3,12 +3,12 @@
  */
 const nextConfig = {
     output: 'export',
+    trailingSlash: true,
     reactStrictMode: true,
     distDir: 'dist',
     images: {
-      unoptimized: true
-  }
-  
-  
+      loader: 'akamai',
+      path: '',
+    },
 } 
   module.exports = nextConfig

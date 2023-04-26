@@ -3,7 +3,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "export": "next export",
     "start": "next start",
     "style:all": "yarn run style:lint && npm run style:prettier",
     "style:lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
