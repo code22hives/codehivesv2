@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "prod": "next export",
+    "build": "next build && next export",
+    "export": "next export",
     "start": "next start",
     "style:all": "yarn run style:lint && npm run style:prettier",
     "style:lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
