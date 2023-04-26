@@ -4,7 +4,6 @@ import { HiMenuAlt4 } from 'react-icons/hi';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
-// import Logo from '../../assets/hncc-logo.png';
 import Logo1 from '../../assets/logo.png'
 import Button from '../button/Button';
 import Sidebar from './Sidebar';
