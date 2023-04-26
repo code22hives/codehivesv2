@@ -4,7 +4,6 @@ import { HiMenuAlt4 } from 'react-icons/hi';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
-import Logo1 from '../../assets/logo.png'
 import Button from '../button/Button';
 import Sidebar from './Sidebar';
 
@@ -61,7 +60,7 @@ function Navbar() {
       <div>
         <Link href="/">
           <a className="flex items-center">
-            <Image src={Logo1} alt="HnCC" height="60px" width="60px" />
+            <Image src='https://codehives.gecpatan.ac.in/logo.png' alt="codehives" height="60px" width="60px" />
             <h2 id="hnccTitle" className={styles.navTitle}>
             Code Hives
             </h2>
